@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Project-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height:55rem;
+    background-position: center;
+    background-color: burlywood;
+}
+.content{
+    text-align: center;
+    margin-top: 10%;
+}
+.exit{
+    background-color: red;
+    width: 4rem;
+    height: 2rem;
+}
+.button{
+    background-color: chartreuse;
+    width: 2rem;
+    height: 2rem;
+
+}
+.input{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 0.8rem;
+}
+#ul{
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    
+
+}
+.counter{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+ul li.check{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #f9ccac;
+    box-shadow: 5px 10px 20px #f9ccac inset;
+    overflow-wrap: break-word;
+    width: 30rem;
+}
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }}
