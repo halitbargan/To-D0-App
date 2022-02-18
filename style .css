@@ -7,19 +7,16 @@ body{
     background-image: url(./Project-1.jpg);
     background-repeat: no-repeat;
     background-size:60%;
-    height:55rem;
+    height:40rem;
     background-position: center;
     background-color: burlywood;
     background-attachment: fixed;
 }
 .content{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
-img{
-    width: 70vh;
-    height: ;
-}
+
 .exit{
     background-color: red;
     width: 4rem;
